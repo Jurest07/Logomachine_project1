@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -11,17 +11,20 @@
 
 <body>
     <header class="header-section" id="header">
-        <a href="#header" class="header-logo">
-            <img src="img/logo.png" alt="logo"></a>
-        <nav class="menu-nav">
-            <ul class="menu-list">
-                <li class="menu-item"><a href="#offer-section" class="menu-href">Главная</a></li>
-                <li class="menu-item"><a href="#text-section" class="menu-href">Текст</a></li>
-                <li class="menu-item"><a href="#list-section" class="menu-href">Списки</a></li>
-                <li class="menu-item"><a href="#footer" class="menu-href">Контакты</a></li>
-            </ul>
-        </nav>
-        <a href="tel:+79268644042" class="header-phone">+7 (926) 864-40-42</a>
+        <div class="container">
+            <div class="menu_wrapper">
+                <a href="#header" class="header-logo"></a>
+                <nav class="menu-nav">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#offer-section">Главная</a></li>
+                        <li class="menu-item"><a href="#text-section">Текст</a></li>
+                        <li class="menu-item"><a href="#list-section">Списки</a></li>
+                        <li class="menu-item"><a href="#footer">Контакты</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:+79268644042" class="header-phone">+7 (926) 864-40-42</a>
+            </div>
+        </div>
     </header>
     <section class="offer-section" id="offer-section">
         <div class="container">
@@ -29,12 +32,12 @@
                 <div class="offer-text-wrapper">
                     <h1 class="offer-title">Мой первый сайт</h1>
                     <p class="offer-text">
-                        На этом курсе я научусь создавать свои сайты с помощью <b>HTML, CSS и JS</b> без хлопот и
+                        На этом курсе я научусь создавать свои <br />сайты с помощью <b>HTML, CSS и JS</b> без хлопот и
                         проблем
                     </p>
                     <button class="offer-btn">Лучшая кнопка</button>
                 </div>
-                <img src="img/offer-img.png" alt="offer-img" class="offer-img">
+                <img src="img/offer-img.svg" alt="offer-img" class="offer-img">
             </div>
         </div>
     </section>
@@ -42,7 +45,7 @@
         <div class="container">
             <div class="title-wrapper">
                 <h2 class="text-title">Блокнот знаний</h2>
-                <img src="img/line.png" alt="line">
+                <img src="img/line.png" alt="line" class="line">
             </div>
             <div class="text-block-wrapper">
                 <div class="left-block">
@@ -83,63 +86,49 @@
         <div class="container">
             <div class="title-wrapper">
                 <h2 class="text-title">Мастер списков</h2>
-                <img src="img/line.png" alt="line">
+                <img src="img/line.png" alt="line" class="line left_line">
             </div>
             <div class="list-section-wrapper">
                 <ul class="text-list">
                     <li class="list-item">
-                        <span>1</span>
-                        <div class="list-item-text">
-                            <h4 class="item-title">Список</h4>
-                            <p class="item-text">Казалось бы, всего лишь перечень...
-                        </div>
-                        </p>
+                        <h4 class="item-title"><span>1</span>Список</h4>
+                        <p class="item-text">Казалось бы, всего лишь перечень...</p>
                     </li>
                     <li class="list-item">
-                        <span>2</span>
-                        <div class="list-item-text">
-                            <h4 class="item-title">Не так прост</h4>
-                            <p class="item-text">...но все бораздо сложнее.
-                            </p>
-                        </div>
+                        <h4 class="item-title"><span>2</span>Не так прост</h4>
+                        <p class="item-text">...но все бораздо сложнее.</p>
                     </li>
                     <li class="list-item">
-                        <span>3</span>
-                        <div class="list-item-text">
-                            <h4 class="item-title">Как может показаться</h4>
-                            <p class="item-text">Стоит изучить подробнее...
-                            </p>
-                        </div>
+                        <h4 class="item-title"><span>3</span>Как может показаться</h4>
+                        <p class="item-text">Стоит изучить подробнее...</p>
                     </li>
                 </ul>
                 <div class="img-list">
-                    <div class="img-row">
-                        <img src="img/img1.png" alt="brackets" class="img">
-                        <img src="img/img2.png" alt="sign" class="img">
-                    </div>
-                    <div class="img-row">
-                        <img src="img/img3.png" alt="one" class="img">
-                        <img src="img/img4.png" alt="endBrackets" class="img">
-                    </div>
+                    <img src="img/img1.png" alt="brackets" class="img">
+                    <img src="img/img2.png" alt="sign" class="img">
+                    <img src="img/img3.png" alt="one" class="img">
+                    <img src="img/img4.png" alt="endBrackets" class="img">
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer-section" id="footer">
-        <a href="#header" class="header-logo"><img src="img/logo.png" alt="logo"></a>
-        <nav class="menu-footer">
-            <ul class="footer-list">
-                <li class="footer-item"><a href="#offer-section" class="menu-href">Главная</a></li>
-                <li class="footer-item"><a href="#text-section" class="menu-href">Текст</a></li>
-            </ul>
-            <ul class="footer-list">
-                <li class="footer-item"><a href="#list-section" class="menu-href">Списки</a></li>
-                <li class="footer-item"><a href="#footer" class="menu-href">Контакты</a></li>
-            </ul>
-        </nav>
-        <div class="footer-contacts">
-            <a href="tel:+79268644042" class="footer-phone">+7 (926) 864-40-42</a>
-            <a href="mailto:dobrenko2000@mail.ru" target="_blank" class="mail">dobrenko2000@mail.ru</a>
+        <div class="container">
+            <div class="menu_wrapper footer-menu-wrapper">
+                <a href="#header" class="header-logo footer-logo"></a>
+                <nav class="menu-nav footer-menu-nav">
+                    <ul class="menu-list footer-menu-list">
+                        <li class="menu-item footer-menu-item"><a href="#offer-section">Главная</a></li>
+                        <li class="menu-item footer-menu-item"><a href="#text-section">Текст</a></li>
+                        <li class="menu-item footer-menu-item"><a href="#list-section">Списки</a></li>
+                        <li class="menu-item footer-menu-item"><a href="#footer">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-contacts">
+                    <a href="tel:+79268644042" class="header-phone footer-phone">+7 (926) 864-40-42</a>
+                    <a href="mailto:dobrenko2000@mail.ru" target="_blank" class="mail">mailme@mail.com</a>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
